@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-sizing: border-box;
+}
+
+#header {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 724px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo a img {
+    height: 2rem;
+    float: left;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+
+.navbar a {
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-top: 55px;
+    float: right;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.825);
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+color: #FFC803;
+transform: translateY(-5px);
+scale: 1.2;
+}
+
+#header .bottom {
+    text-align: center;
+    padding: 16rem 6rem;
+}
+
+.bottom h4 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.bottom h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.bottom a {
+    background-color: #FFC803;
+    padding: 1.25rem 2.5rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.bottom a:hover {
+    background-color: #ffc803bd;
+}
+
+#services {
+    padding: 6rem 0;
+}
+
+.top_srvcs {
+    text-align: center;
+}
+
+.top_srvcs h2 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.top_srvcs h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 110px;
+}
+
+.text {
+    padding: 15px;
+}
+
+.text h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    color: #6c757d;
+}
+
+#protofile {
+    background-color: #eaedf1;
+    padding: 3rem 6rem;
+    overflow: auto;
+}
+
+.pro_top {
+    text-align: center;
+}
+
+.pro_top h2 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.pro_top p {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cart{
+    width: 30%;
+    float: left;
+    margin: 80px 1.55%;
+}
+.pro_bottom .cart img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 8px 8px 0 0;
+    transition: 0.5s;
+}
+.pro_bottom .cart_bottom{
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 1.7rem 0;
+}
+.pro_bottom .cart_bottom h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.pro_bottom .cart_bottom p{
+    font-style: italic;
+    color: #6c757d
+}
+.pro_bottom .cart img:hover{
+    box-shadow: 7px 5px 20px 2px;
+    scale: 1.1;
+}
+#team{
+    background-color: #F8F9FA;
+    padding: 3rem 6rem;
+    overflow: auto;
+}
+#team .team_top{
+    text-align: center;
+}
+.team_top h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 700;
+}
+.team_top p{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+}
+#team .cart{
+    width: 30%;
+    float: left;
+}
+#team .cart_top img{
+    width: 60%;
+    vertical-align: bottom;
+    border-radius:50%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    filter: grayscale();
+}
+#team .cart_top img:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    border:0.5rem solid #FFC803; ;
+    filter: none;
+    scale: 1.1;
+}
+.team_body .cart_top{
+    text-align: center;
+    padding: 1.7rem 0;
+}
+.team_body .cart_bottom{
+    text-align: center;
+}
+.team_body .cart_bottom h4{
+   margin-top: 1.5rem;
+   margin-bottom: 0;
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+.team_body .cart_bottom p{
+    color: #6c757d;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.75;
+
+ }
+ .team_bottom{
+    text-align: center;
+    padding: 100px;
+ }
+ .team_bottom p{
+    color: #6c757d ;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    font-weight: 500;
+ }
+ 
+ #image{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 6rem;
+ }
+ #image .cart_img{
+    float: left;
+    width: 20%;
+ }
+
+ #image .cart_img img{
+    width: 60%;
+ }
+ #contact {
+    background-color: #212529;
+     background-image: url(/assests/image/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 724px;
+    position: relative;
+    background-attachment: fixed;
+    padding: 6rem 0;
+}
+#contact .contact_head{
+    text-align: center;
+}
+#contact .contact_head h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: white;
+}
+#contact .contact_head p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+}
+#contact .contact_bdy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+#contact .contact_bdy .left{
+    float: left;
+    padding: 10px;
+}
+#contact .contact_bdy .right{
+    padding: 10px;
+    float: right;
+}
+#contact .contact_bdy .left input{
+    outline: none;
+    width: 100%;
+    padding: 1.25rem;
+    padding-right: 328px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+#contact .contact_bdy .right textarea{
+    outline: none;
+    margin-right: 30px;
+    padding: 11px 11px;
+    width: 561px;
+    height: 227px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#contact .contact_foot{
+    text-align: center;
+}
+#contact .contact_foot button{
+    background-color: #FFC803;
+    color: white;
+    border: none;
+    padding: 23px 58px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+#contact .contact_foot button:hover{
+   scale: 1.1;
+   border: 2px solid gold;
+   color:gold;
+   background-color: #212529;
+}
+#footeer{
+    padding: 69px 6rem;
+}
+.left_foot{
+    float: left;
+}
+.right_foot{
+    float: right;
+}
+.right_foot a{
+    padding: 1px 21px;
+    color: #212529;
+}
